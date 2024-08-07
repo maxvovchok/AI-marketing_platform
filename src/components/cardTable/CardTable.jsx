@@ -42,6 +42,7 @@ export const CardTable = () => {
                     <a
                       href={`https://testapi-jvqis72guq-lm.a.run.app/test_vidro/${task_name}_${dimension}/format_validation`}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className={styles.link}
                     >
                       Folder
