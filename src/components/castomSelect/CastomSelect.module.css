@@ -1,0 +1,35 @@
+.dropDown {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.dropDownBtn {
+  padding: 15px 20px;
+  background: #ffffff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropDowncontent {
+  top: 110%;
+  left: 0;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  color: #333;
+  width: 92.5%;
+  z-index: 999;
+}
+
+.dropDownItem {
+  padding: 10px;
+}
+
+.dropDownItem:hover {
+  background: #fcfcfc;
+}
