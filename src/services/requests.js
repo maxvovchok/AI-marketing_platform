@@ -16,6 +16,7 @@ export const generateFormats = async requestBody => {
     return data;
   } catch (error) {
     console.log(error);
+    throw error;
   }
 };
 
@@ -30,5 +31,6 @@ export const generateImages = async requestBody => {
     return data;
   } catch (error) {
     console.log(error);
+    throw error;
   }
 };

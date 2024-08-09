@@ -39,10 +39,9 @@ export const TaskTable = () => {
       text_layers: [text],
     };
 
-    dispatch(addTask(newTask));
     try {
-      console.log(newTask);
       const data = await generateFormats(newTask);
+      dispatch(addTask(newTask));
       Notiflix.Notify.success(`${data.message}`);
     } catch (error) {
       Notiflix.Notify.failure('❌ Sorry, something went wrong.');
@@ -111,11 +110,13 @@ export const TaskTable = () => {
           required
           onChange={handleFileChange}
         />
-        <div className={styles.previews}>
+        <ul className={styles.previews}>
           {imageLayers.map((_, index) => (
-            <p>image{index + 1}</p>
+            <li key={index}>
+              <p>image{index + 1}</p>
+            </li>
           ))}
-        </div>
+        </ul>
       </td>
       <td>
         <input

@@ -41,8 +41,6 @@ export const TaskCard = ({ card }) => {
     };
 
     try {
-      console.log(newImg);
-
       const data = await generateImages(newImg);
       Notiflix.Notify.success(`${data.message}`);
     } catch (error) {
