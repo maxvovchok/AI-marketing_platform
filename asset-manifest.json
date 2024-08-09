@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AI-marketing_platform/static/css/main.10dc2529.css",
-    "main.js": "/AI-marketing_platform/static/js/main.2d9d165e.js",
+    "main.js": "/AI-marketing_platform/static/js/main.b5ee322f.js",
     "index.html": "/AI-marketing_platform/index.html",
     "main.10dc2529.css.map": "/AI-marketing_platform/static/css/main.10dc2529.css.map",
-    "main.2d9d165e.js.map": "/AI-marketing_platform/static/js/main.2d9d165e.js.map"
+    "main.b5ee322f.js.map": "/AI-marketing_platform/static/js/main.b5ee322f.js.map"
   },
   "entrypoints": [
     "static/css/main.10dc2529.css",
-    "static/js/main.2d9d165e.js"
+    "static/js/main.b5ee322f.js"
   ]
 }
